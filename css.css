@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    width: 100%;
+    font-family:"Gill Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:black;
+}
+
+.pic p{
+    font-size: 5px;
+    text-align: justify;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url("doctor.jpg");
+    background-attachment: fixed;
+    color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .1);
+}
